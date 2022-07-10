@@ -9,9 +9,15 @@ if(a>b)
         Console.WriteLine("Больше");
             Console.WriteLine(b);
 }
+if(a<b)
+{
+    Console.WriteLine(b);
+        Console.WriteLine("Больше");
+            Console.WriteLine(a);
+}
 else
 {
 Console.WriteLine(b);
-Console.WriteLine("Больше");
+Console.WriteLine("Равно");
 Console.WriteLine(a);
 }
